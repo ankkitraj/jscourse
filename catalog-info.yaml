@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jscourse
+  description: Description of the jscourse repository
+  annotations:
+    github.com/project-slug: ankkitraj/jscourse
+spec:
+  type: service
+  owner: ankkitraj
+  lifecycle: production
+  system: my-system
+  links:
+    - url: https://github.com/ankkitraj/jscourse
+      title: Repository
